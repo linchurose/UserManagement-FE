@@ -1,0 +1,14 @@
+<h2>Register</h2>
+<form (ngSubmit)="submit()">
+  <label>Username
+    <input [(ngModel)]="reg.username" name="username" required minlength="3">
+  </label>
+  <label>Password
+    <input type="password" [(ngModel)]="reg.password" name="password" required minlength="6">
+  </label>
+  <label>Email
+    <input [(ngModel)]="reg.email" name="email" required email>
+  </label>
+  <button type="submit">Register</button>
+</form>
+<p>{{ message }}</p>

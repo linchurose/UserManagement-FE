@@ -1,0 +1,14 @@
+form label {
+  display: block;
+  margin: .5rem 0;
+}
+input {
+  display: block;
+  padding: .5rem;
+  width: 100%;
+  max-width: 320px;
+}
+button {
+  margin-top: .5rem;
+  padding: .5rem .9rem;
+}

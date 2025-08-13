@@ -1,0 +1,5 @@
+<h2>Profile</h2>
+<button (click)="loginAndGetProfileData()">Fetch Profile with Session</button>
+
+<pre *ngIf="profile">{{ profile | json }}</pre>
+<p *ngIf="error">{{ error }}</p>
